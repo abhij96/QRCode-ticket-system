@@ -104,7 +104,7 @@ class data():
     def email_t(self):
         filePath = "uca-url.png"  # your file name
 
-        From = 'testpythom@gmail.com'
+        From = ''
         To = str(addressToVerify)
 
         msg = MIMEMultipart()
@@ -118,7 +118,7 @@ class data():
         try:
             smtp = smtplib.SMTP('smtp.gmail.com:587')
             smtp.starttls()
-            smtp.login('testpythom@gmail.com', 'pythonisamazing')
+            smtp.login('username', 'password')
         except:
             i = 1
         else:
