@@ -53,8 +53,7 @@ Crack-the-door -> Version 1.0 ( Basic module Application )
 ## Authors- TEAM OM
 - Ankit Shukla
 - Abhishek Jindal
-- Keshav Khetan
-- Aekanshu Panchal 
+
 
 ## TO-DO:
 - Interface is ugly, first basic module, will make nicer in next release of module.
